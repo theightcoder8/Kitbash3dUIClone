@@ -1,6 +1,50 @@
 :root {
     --yellowcolor: #fcae19;
     --whitecolor: #fae9cf;
-    --greycolor: #181818x;
+    --greycolor: #181818;
     --darkgreycolor: #111111;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 80vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/*----------------------- CONTAINER 1 ---------------------------*/
+.container1 {
+    border: 1px solid black;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr 7.5fr;
+}
+
+.container1 > div {
+    border: 1px solid black;
+    position: relative;
+}
+
+.navbar1 {
+    border: 0.5px solid var(--greycolor);
+}
+
+.main1 > div {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main1 {
+    display: flex;
+    align-items: center;
+    padding-left: 7.5%;
 }
