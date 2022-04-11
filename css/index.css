@@ -21,23 +21,74 @@ video {
 }
 /*----------------------- CONTAINER 1 ---------------------------*/
 .container1 {
-    border: 1px solid black;
     height: 80vh;
     display: grid;
     grid-template-rows: 1fr 7.5fr;
 }
 
 .container1 > div {
-    border: 1px solid black;
     position: relative;
 }
 
+/* Navigation bar of container1 */
 .navbar1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
     border: 0.5px solid var(--greycolor);
+    background: var(--darkgreycolor);
 }
 
+.nav12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.nav12 > a{
+    color: var(--whitecolor);
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.nav12 > a:hover {
+    color: var(--yellowcolor);
+}
+
+.nav13 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.searchicon1, .basketicon1 {
+    color: var(--whitecolor);
+    font-size: 20px;
+    transition: 0.4s;
+}
+.searchicon1:hover, .basketicon1:hover {
+    color: var(--yellowcolor);
+}
+.loginbutton1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginbutton1 button{
+    padding: 5% 30% 5% 30%;
+    border: 1px solid var(--yellowcolor);
+    font-weight: bolder;
+    color: var(--whitecolor);
+    background: var(--darkgreycolor);
+    transition: 0.4s;
+}
+.loginbutton1 button:hover {
+    cursor: pointer;
+    color: var(--yellowcolor);
+}
+
+/* Body of container1 */
 .main1 > div {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -48,9 +99,6 @@ video {
     padding-left: 7.5%;
     color: var(--whitecolor);
 }
-.viewkitsbutton1 {
-    border: 1px solid black;
-}
 .viewkitsbutton1 button {
     padding: 3.3% 10.5% 3.3% 10.5%;
     border: none;
@@ -58,4 +106,9 @@ video {
     color: var(--greycolor);
     font-weight: 700;
     letter-spacing: 1.5px;
+    transition: 0.2s;
+}
+.viewkitsbutton1 button:hover {
+    cursor: pointer;
+    color: var(--whitecolor);
 }
