@@ -42,9 +42,20 @@ video {
     flex-direction: column;
     gap: 20px;
 }
-
 .main1 {
     display: flex;
     align-items: center;
     padding-left: 7.5%;
+    color: var(--whitecolor);
+}
+.viewkitsbutton1 {
+    border: 1px solid black;
+}
+.viewkitsbutton1 button {
+    padding: 3.3% 10.5% 3.3% 10.5%;
+    border: none;
+    background: var(--yellowcolor);
+    color: var(--greycolor);
+    font-weight: 700;
+    letter-spacing: 1.5px;
 }
