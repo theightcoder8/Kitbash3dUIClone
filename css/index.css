@@ -10,28 +10,10 @@
     margin: 0;
     padding: 0;
 }
-
-.vid1 {
-    object-fit: cover;
-    width: 100vw;
-    height: 80vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-/*----------------------- CONTAINER 1 ---------------------------*/
-.container1 {
-    height: 80vh;
-    display: grid;
-    grid-template-rows: 1fr 7.5fr;
-}
-
-.container1 > div {
-    position: relative;
-}
-
-/* Navigation bar of container1 */
+/* Navigation bar */
 .navbar1 {
+    top: 0;
+    height: 20vh;
     display: grid;
     grid-template-columns: 1fr 3fr 2fr;
     border: 0.5px solid var(--greycolor);
@@ -87,17 +69,38 @@
     color: var(--yellowcolor);
 }
 
-/* Body of container1 */
+.vid1 {
+    object-fit: cover;
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    left: 0;
+}
+/*----------------------- CONTAINER 1 ---------------------------*/
+.container1 {
+    height: 70vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1 > div {
+    position: relative;
+}
+
 .main1 > div {
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 .main1 {
+    border: 1px solid red;
     display: flex;
     align-items: center;
     padding-left: 7.5%;
     color: var(--whitecolor);
+    position: relative;
 }
 .viewkitsbutton1 button {
     padding: 3.3% 10.5% 3.3% 10.5%;
@@ -132,14 +135,12 @@
 
 .con3parallax {
     background-image: url("../images/container3image.jpg");
-
-    min-height: 60vh; 
+    min-height: 60vh;
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-
-    backdrop-filter: blur(10px) var(--darkgreycolor);
+    filter: blur(2px);
 }
