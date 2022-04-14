@@ -11,7 +11,7 @@
     padding: 0;
 }
 
-video {
+.vid1 {
     object-fit: cover;
     width: 100vw;
     height: 80vh;
@@ -36,7 +36,6 @@ video {
     grid-template-columns: 1fr 3fr 2fr;
     border: 0.5px solid var(--greycolor);
     background: var(--darkgreycolor);
-    position: sticky;
 }
 
 .nav12 {
@@ -115,7 +114,32 @@ video {
 }
 
 
+
 /*----------------------- CONTAINER 2 ---------------------------*/
 .container2 {
-    height: 100vh;
+    border: 1px solid red;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*----------------------- CONTAINER 3 ---------------------------*/
+.container3 {
+    height: 150vh;
+}
+
+.con3parallax {
+    background-image: url("../images/container3image.jpg");
+
+    min-height: 60vh; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    backdrop-filter: blur(10px) var(--darkgreycolor);
 }
