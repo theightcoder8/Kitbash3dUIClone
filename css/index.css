@@ -79,7 +79,6 @@
     left: 0;
 }
 .container1 {
-    border: 1px solid red;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -91,7 +90,18 @@
     color: var(--whitecolor);
     line-height: 100px;
 }
-
+.viewkitsbutton1 button {
+    border: none;
+    padding: 15px 50px 15px 50px;
+    color: var(--greycolor);
+    background-color: var(--yellowcolor);
+    font-weight: 700;
+    transition: .2s;
+}
+.viewkitsbutton1 button:hover {
+    cursor: pointer;
+    color: var(--whitecolor);
+}
 
 
 
