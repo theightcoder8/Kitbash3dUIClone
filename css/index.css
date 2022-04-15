@@ -1,3 +1,4 @@
+
 :root {
     --yellowcolor: #fcae19;
     --whitecolor: #fae9cf;
@@ -13,13 +14,12 @@
 /* Navigation bar */
 .navbar1 {
     top: 0;
-    height: 20vh;
+    height: 10vh;
     display: grid;
     grid-template-columns: 1fr 3fr 2fr;
     border: 0.5px solid var(--greycolor);
     background: var(--darkgreycolor);
 }
-
 .nav12 {
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@
 .nav12 > a:hover {
     color: var(--yellowcolor);
 }
-
+ 
 .nav13 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -69,6 +69,8 @@
     color: var(--yellowcolor);
 }
 
+
+/*----------------------- CONTAINER 1 ---------------------------*/
 .vid1 {
     object-fit: cover;
     width: 100vw;
@@ -76,45 +78,21 @@
     position: absolute;
     left: 0;
 }
-/*----------------------- CONTAINER 1 ---------------------------*/
 .container1 {
-    height: 70vh;
-    position: absolute;
+    border: 1px solid red;
+    height: 80vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 .container1 > div {
     position: relative;
+    margin-left: 10%;
+    color: var(--whitecolor);
+    line-height: 100px;
 }
 
-.main1 > div {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.main1 {
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    padding-left: 7.5%;
-    color: var(--whitecolor);
-    position: relative;
-}
-.viewkitsbutton1 button {
-    padding: 3.3% 10.5% 3.3% 10.5%;
-    border: none;
-    background: var(--yellowcolor);
-    color: var(--greycolor);
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    transition: 0.2s;
-}
-.viewkitsbutton1 button:hover {
-    cursor: pointer;
-    color: var(--whitecolor);
-}
+
 
 
 
