@@ -138,23 +138,23 @@
     color: var(--whitecolor);
 }
 
-.con3part2 {
+.con3part2, .container5 {
     display: flex;
     padding-top: 15%;
 
     background: var(--darkgreycolor);
 }
 
-.con3left {
+.con3left, .con5left {
     padding: 150px;
 }
 
-.con3left > h1 {
+.con3left > h1, .con5left > h1 {
     color: var(--whitecolor);
     text-transform: uppercase;
 }
 
-.con3left > p {
+.con3left > p, .con5left > p {
     margin-top: 20px;
     line-height: 25px;
 
@@ -190,4 +190,19 @@
 
     color: var(--lightgreycolor);
     font-weight: bold;
+}
+
+
+
+/*----------------------- CONTAINER 6 ---------------------------*/
+.container6 {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-transform: uppercase;
+    background: var(--greycolor);
+    color: var(--whitecolor);
 }
