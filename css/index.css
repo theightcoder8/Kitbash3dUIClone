@@ -209,5 +209,27 @@
 
 
 
+/*----------------------- CONTAINER 7 ---------------------------*/
 
+.container7 {
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.con7left {
+    background: url(../images/con7img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.con7right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color:var(--darkgreycolor);
+    color: var(--whitecolor);
+    text-align: center;
+}
