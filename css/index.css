@@ -233,3 +233,30 @@
     color: var(--whitecolor);
     text-align: center;
 }
+
+
+
+/*----------------------- CONTAINER 8 ---------------------------*/
+.container8 {
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+
+    background: var(--greycolor);
+    color: var(--whitecolor);
+}
+
+.con8heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.con8logo {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
