@@ -44,12 +44,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
-.searchicon1, .basketicon1 {
+.searchicon1 > i, .basketicon1 > i {
     color: var(--whitecolor);
     font-size: 20px;
     transition: 0.4s;
 }
-.searchicon1:hover, .basketicon1:hover {
+.searchicon1 > i:hover, .basketicon1 > i:hover {
     color: var(--yellowcolor);
 }
 .loginbutton1 {
